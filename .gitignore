@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+checkpoints/*
+metrics/*
+plots/*
+results/*
+data/processed/*
+data/manifests/*
+!checkpoints/.gitkeep
+!metrics/.gitkeep
+!plots/.gitkeep
+!results/.gitkeep
+!data/processed/.gitkeep
+!data/manifests/.gitkeep
+
+# Local caches and credentials
+.mplconfig*/
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Raw participant data stays local
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
